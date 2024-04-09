@@ -12,7 +12,7 @@ install.packages("readr")
 ```
 
 ## Data Import
-### We imported ride data for March 2022 from a CSV file.
+### We imported ride data for March 2022 from a CSV file. The file can be found on this [Kaggle dataset](https://www.kaggle.com/datasets/evangower/cyclistic-bike-share?resource=download), the name of the file is 202203-divvy-tripdata and it's too large to upload it to GitHub directly.
 
 ```r
 X202203 <- X202203_divvy_tripdata <- read_csv("202203-divvy-tripdata.csv")
